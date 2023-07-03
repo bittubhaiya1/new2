@@ -1,0 +1,43 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-style: normal; */
+    
+    color: white;
+    
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700vh;
+    
+}
+
+.contentbox
+{
+    /* font-family: 'Lovers Quarrel', cursive; */
+    font-family: 'Great Vibes', cursive;
+    background-color: rgba(99, 98, 98, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+
+}
+
+.notcoontentbox{
+    background-color: rgba(99, 98, 98, 0.z);
+  backdrop-filter: blur(3px);
+  border-radius: 2px;
+}
+.heading{
+    font-style: italic;
+    font-weight: bolder;
+    font-stretch: wider;
+    text-decoration: underline;
+    text-underline-offset: 18px;
+    color: rgb(205, 235, 220);
+}
